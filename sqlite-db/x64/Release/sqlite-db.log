@@ -1,0 +1,8 @@
+﻿  sqlite-db.cpp
+LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG"
+sqlite-db.obj : error LNK2001: неразрешенный внешний символ sqlite3_open.
+sqlite-db.obj : error LNK2001: неразрешенный внешний символ sqlite3_free.
+sqlite-db.obj : error LNK2001: неразрешенный внешний символ sqlite3_close.
+sqlite-db.obj : error LNK2001: неразрешенный внешний символ sqlite3_exec.
+sqlite-db.obj : error LNK2001: неразрешенный внешний символ sqlite3_errmsg.
+C:\Users\nktle\OneDrive\Рабочий стол\ы\sqlite\x64\Release\sqlite-db.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
